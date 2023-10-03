@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<title>W3.CSS Template</title>
+<title> Ayanrindd Olutayo Stephen (PORTFOLIO) </title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -13,10 +13,33 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
 .w3-sidebar {width: 120px;background: #222;}
 /* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
 #main {margin-left: 120px}
-.project_links a{text-decoration: none; font-size: 25px; font-weight: bold;}
+
+.project_links a{text-decoration:underline dashed #384A5B 3px; font-size:25px; font-weight:bold; letter-spacing:7px; }
+.project_links a#trafficAnimation:hover::after {content:url(images/SharedScreenshot-trafficanimation\ 0.25resized.jpg);  
+                                                display:block; position:absolute; width: 10%; left: 123px; top: 25px;}
+.project_links a#trafficAnimation:hover{position: relative;}
+.project_links a#NUTForm:hover::after {content:url(images/Screenshot_nutform\ -0.25resized.jpg); 
+                                        display:block; position:absolute; left: 123px; top: 25px;}
+.project_links a#NUTForm:hover{position: relative;}
+.project_links a#flickr:hover::after {content:url(images/SharedScreenshot-flickr\ -\ 0.25\ resized.jpg); 
+                                                display:block; position:absolute; left: 123px; top: 25px;}
+.project_links a#flickr:hover{position: relative;}
+.project_links a#printivo:hover::after {content:url(images/Screenshot\ 2023-printivo\ 0.25resized.jpg); 
+                                                display:block; position:absolute; left: 123px; top: 25px;}
+.project_links a#printivo:hover{position: relative;}
+.project_links a#Ganalytics:hover::after {content:url(images/SharedScreenshot-googleanalytics-0.25resized.jpg); 
+                                                display:block; position:absolute; left: 123px; top: 25px;}
+.project_links a#Ganalytics:hover{position: relative; }
+
 footer a{text-decoration: none;}
+
 /* Remove margins from "page content" on small screens */
-@media only screen and (max-width: 600px) {#main {margin-left: 0}}
+@media only screen and (max-width: 600px) {#main {margin-left: 0; margin-right: 0;}
+*{margin: 0 0 0 0;}
+#projects_Second_half{display: none;}
+.project_links a#trafficAnimation:hover::after {display: none;}
+.project_links a#trafficAnimation:hover{position: relative;}
+}
 </style>
 <body class="w3-black">
 
@@ -56,15 +79,16 @@ footer a{text-decoration: none;}
 <div class="w3-padding-large" id="main">
   <!-- Header/Home -->
   <header class="w3-container w3-padding-30 w3-center w3-black" id="home">
-    <h1 class="w3-jumbo"><span class="w3-hide-small"></span> Ayanrinde Olutayo Stephen.</h1>
+    <h1 class="w3-jumbo" ><span class="w3-hide-small"></span> Ayanrinde Olutayo Stephen.</h1>
+   <div id="Web_developer_pics"> <img src="images/web-developer-portfolio.webp" style="width:50%; opacity: 0.35;"> </div>
     <p> <h2>Software Engineer and Digital Marketer </h2></p>
     <!-- <img src="images/HZBb8GJE_400x400.jpg" alt="boy" class="w3-image" width="992" height="1108"> -->
   </header>
 
   <!-- About Section -->
-  <div class="w3-content w3-justify w3-text-grey w3-padding-54" id="about">
-    <h2 class="w3-text-light-grey">Profile Statement</h2>
-    <hr style="width:300px" class="w3-opacity">
+  <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
+    <h1 class="w3-text-light-grey" style="letter-spacing:15px; color:#384A5B !important;">Profile Statement</h1>
+    <hr id="hr_profileStatement" style="width:65vw;" class="w3-opacity">
     <p> <h5> I am a resourceful, quality-focused, highly proficient Software Engineer(Web, Mobile and Desktop) 
       with a broad knowledge of Digital Marketing. I have acquired years of experience working at reputable 
       organizations across many sectors like Education, Agriculture, E-commerce. I am deeply rooted in Project 
@@ -74,8 +98,8 @@ footer a{text-decoration: none;}
        changing work environment, with the ability to Multi-Task. <br>
     </p> </h5>
     
-    <h3 class="w3-padding-0 w3-text-light-grey">My Skills</h3>
-    <hr style="width:200px" class="w3-opacity w3-padding-8">
+    <h1 class="w3-padding-32 w3-text-light-grey" style="letter-spacing:20px; color: #384a5b !important;">My Skills</h1>
+    <hr style="width:65vw" class="w3-opacity w3-padding-8">
     <p class="w3-wide">Software Engineering</p>
     <div class="w3-white">
       <div class="w3-dark-grey" style="height:28px;width:95%"></div>
@@ -157,7 +181,8 @@ footer a{text-decoration: none;}
     <!-- End Grid/Pricing tables -->
     
     <!-- Testimonials -->
-    <h3 class="w3-padding-24 w3-text-light-grey w3-section">Testimonials</h3>  
+    <h1 class="w3-padding-24 w3-text-light-grey w3-section" style="letter-spacing: 10.5px; color: #384a5b !important;">Testimonials</h1>
+    <hr style="width:65vw" class="w3-opacity">  
     <!-- <img src="/w3images/bandmember.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px"> -->
     <p><span class="w3-large w3-margin-right"> <b>Engineer Stephen Akinpelu.</b></span> Director of ICT, Zoe Schools.</p>
     <p>Stephen is proffesional, effective and efficient at his work, he is an asset to any organization .</p><br>
@@ -170,25 +195,26 @@ footer a{text-decoration: none;}
   
   <!-- Portfolio Section -->
   <div class="w3-padding-64 w3-content" id="projects">
-    <h2 class="w3-text-light-grey">My Projects</h2>
-    <hr style="width:60vw" class="w3-opacity">
+    <h1 class="w3-text-light-grey" style="letter-spacing: 20px; color: #384A5B !important;">My Projects</h1>
+    <hr style="width:65vw" class="w3-opacity">
 
     <!-- Grid for projects --> 
-    <div class="w3-row-padding" style="margin:0 -16px">
+    <div class="w3-row-padding" style="margin:0 -16px;  ">
       <div class="w3-half project_links">
-        <a href="https://olutayo333.github.io/trafficanimation/"> Traffic Animation </a> <br>
-        <a href="https://olutayo333.github.io/flickr/"> Flickr  </a> <br>
-        <a href="https://olutayo333.github.io/teachers_form/"> NUT Form</a> <br>
-        <a href="https://olutayo333.github.io/trafficanimation/"> Google Analytics </a>  <br>
-        
+        <a id="trafficAnimation" href="https://olutayo333.github.io/trafficanimation/"> Traffic Animation </a>  <br>
+        <a id="flickr" href="https://olutayo333.github.io/flickr/"> Flickr  </a> <br>
+        <a id="NUTForm" href="https://olutayo333.github.io/teachers_form/"> NUT Form</a> <br>
+        <a id="printivo"  href="https://github.com/olutayo333/printivo"> Printivo </a>  <br>
+        <a id="Ganalytics"  href="https://github.com/olutayo333/printivo"> Google Analytics Page </a>  <br>
         
       </div>
 
-      <div class="w3-half">
-        <p> Web Programming </p>
-        <p> Web Development </p>
-        <p> Web Development </p>
-        <p> Web Development </p>
+      <div id="projects_Second_half" class="w3-half" style="color: #384A5B; ">
+        <p> ( Web Programming ) </p>
+        <p> ( Web Development ) </p>
+        <p> ( Web Development ) </p>
+        <p> ( Web Development ) </p>
+        <p> ( Web Development )</p>
       </div>
     <!-- End project grid -->
     </div>
@@ -197,8 +223,8 @@ footer a{text-decoration: none;}
 
   <!-- Contact Section -->
   <div class="w3-padding-50 w3-content w3-text-grey" id="contact">
-    <h2 class="w3-text-light-grey">Contact Me</h2>
-    <hr style="width:200px" class="w3-opacity">
+    <h1 class="w3-text-light-grey" style="letter-spacing: 20px; color: #384A5B !important;">Contact Me</h1>
+    <hr style="width:65vw" class="w3-opacity">
 
     <div class="w3-section">
       <p><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Oyo State, Nigeria</p>
