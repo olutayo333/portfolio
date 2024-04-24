@@ -14,48 +14,6 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
 /* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
 #main {margin-left: 120px}
 
-.project_links a{text-decoration:underline dashed #384A5B 3px; font-size:25px; font-weight:bold; letter-spacing:7px; }
-.project_links a#bankapp:hover::after {content:url(images/bankApp.PNG);  
-                                                display:block; position:absolute; width: 10%; left: 123px; top: 25px;}
-.project_links a#bankapp:hover{position: relative;}
-
-.project_links a#scrambledword:hover::after {content:url(images/scrambledwordresized.PNG);  
-                                                display:block; position:absolute; width: 10%; left: 123px; top: 25px;}
-.project_links a#scrambledword:hover{position: relative;}
-.project_links a#btcconverter:hover::after {content:url(images/BitcoinConverter.PNG);  
-                                                display:block; position:absolute; width: 10%; left: 123px; top: 25px;}
-.project_links a#btcconverter:hover{position: relative;}
-.project_links a#location:hover::after {content:url(images/lonlag.PNG);  
-                                                display:block; position:absolute; width: 10%; left: 123px; top: 25px;}
-.project_links a#location:hover{position: relative;}
-
-.project_links a#weatherapp:hover::after {content:url(images/weatherapp.PNG);  
-                                                display:block; position:absolute; width: 10%; left: 123px; top: 25px;}
-.project_links a#weatherapp:hover{position: relative;}
-
-.project_links a#stopwatch:hover::after {content:url(images/stopwatch.PNG);  
-                                                display:block; position:absolute; width: 10%; left: 123px; top: 25px;}
-.project_links a#stopwatch:hover{position: relative;}
-.project_links a#calculator:hover::after {content:url(images/calculator.PNG);  
-                                                display:block; position:absolute; width: 10%; left: 123px; top: 25px;}
-.project_links a#calculator:hover{position: relative;}
-
-.project_links a#trafficAnimation:hover::after {content:url(images/SharedScreenshot-trafficanimation\ 0.25resized.jpg);  
-                                                display:block; position:absolute; width: 10%; left: 123px; top: 25px;}
-.project_links a#trafficAnimation:hover{position: relative;}
-.project_links a#NUTForm:hover::after {content:url(images/Screenshot_nutform\ -0.25resized.jpg); 
-                                        display:block; position:absolute; left: 123px; top: 25px;}
-.project_links a#NUTForm:hover{position: relative;}
-.project_links a#flickr:hover::after {content:url(images/SharedScreenshot-flickr\ -\ 0.25\ resized.jpg); 
-                                                display:block; position:absolute; left: 123px; top: 25px;}
-.project_links a#flickr:hover{position: relative;}
-.project_links a#printivo:hover::after {content:url(images/Screenshot\ 2023-printivo\ 0.25resized.jpg); 
-                                                display:block; position:absolute; left: 123px; top: 25px;}
-.project_links a#printivo:hover{position: relative;}
-.project_links a#Ganalytics:hover::after {content:url(images/SharedScreenshot-googleanalytics-0.25resized.jpg); 
-                                                display:block; position:absolute; left: 123px; top: 25px;}
-.project_links a#Ganalytics:hover{position: relative; }
-
 footer a{text-decoration: none;}
 
 /* Remove margins from "page content" on small screens */
@@ -63,7 +21,9 @@ footer a{text-decoration: none;}
 *{margin: 0 0 0 0;}
 #projects_Second_half{display: none;}
 /*.project_links a#trafficAnimation:hover::after {display: none;} */
-
+}
+#p-img{
+  transform: scale(1.3,1.3);
 }
 </style>
 <body class="w3-black">
@@ -111,10 +71,10 @@ footer a{text-decoration: none;}
   </header>
 
   <!-- About Section -->
-  <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
-    <h1 class="w3-text-light-grey" style="letter-spacing:15px; color:#384A5B !important;">Profile Statement</h1>
+  <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about" >
+    <h1 class="w3-text-light-grey" style="letter-spacing:15px; color:#ffff !important;"><b>Profile Statement</b></h1>
     <hr id="hr_profileStatement" style="width:65vw;" class="w3-opacity">
-    <p> <h5> I am a resourceful, quality-focused, highly proficient Software Engineer 
+    <p > <h5 style="color: azure;"> I am a resourceful, quality-focused, highly proficient Software Engineer 
       with a broad knowledge of Web Programming. I have acquired years of experience working at reputable 
       organizations across many sectors like Education, Agriculture, E-commerce. I am deeply rooted in Project 
       Implementation, Human Resource Technology, with progressive background in Customer Relationship Management. 
@@ -123,79 +83,83 @@ footer a{text-decoration: none;}
        changing work environment, with the ability to Multi-Task. <br>
     </p> </h5>
     
-    <h1 class="w3-padding-32 w3-text-light-grey" style="letter-spacing:20px; color: #384a5b !important;">My Skills</h1>
+    <h1 class="w3-padding-32 w3-text-light-grey" style="letter-spacing:20px; color: #ffff !important;"><b>My Skills</b></h1>
     <hr style="width:65vw" class="w3-opacity w3-padding-8">
-    <p class="w3-wide">HTML</p>
+    
+    <p class="w3-wide" style="color: #ffff;"><b>SQL</b></p>
     <div class="w3-white">
-      <div class="w3-dark-grey" style="height:28px;width:95%"></div>
+      <div class="w3-dark-grey" style="height:28px;width:99%"></div>
     </div>
-    <p class="w3-wide">CSS</p>
+    <p class="w3-wide" style="color: #ffff;"><b>Angular</b></p>
     <div class="w3-white">
-      <div class="w3-dark-grey" style="height:28px;width:85%"></div>
+      <div class="w3-dark-grey" style="height:28px;width:99%"></div>
     </div>
-    <p class="w3-wide">Bootstrap</p>
+    <p class="w3-wide" style="color: #ffff;"><b>TypeScript</b></p>
     <div class="w3-white">
-      <div class="w3-dark-grey" style="height:28px;width:80%"></div>
+      <div class="w3-dark-grey" style="height:28px;width:99%"></div>
     </div>
-    <p class="w3-wide">Tailwind</p>
+    <p class="w3-wide" style="color: #ffff;"><b>React JS</b></p>
     <div class="w3-white">
-      <div class="w3-dark-grey" style="height:28px;width:75%"></div>
+      <div class="w3-dark-grey" style="height:28px;width:99%"></div>
     </div>
-    <p class="w3-wide">JavaScript</p>
+    <p class="w3-wide" style="color: #ffff;"><b>Node Js</b></p>
     <div class="w3-white">
-      <div class="w3-dark-grey" style="height:28px;width:90%"></div>
+      <div class="w3-dark-grey" style="height:28px;width:99%"></div>
     </div>
-    <p class="w3-wide">TypeScript</p>
+    <p class="w3-wide" style="color: #ffff;"><b>Mongo DB</b></p>
     <div class="w3-white">
-      <div class="w3-dark-grey" style="height:28px;width:85%"></div>
+      <div class="w3-dark-grey" style="height:28px;width:99%"></div>
     </div>
-    <p class="w3-wide">React JS</p>
+    <p class="w3-wide" style="color: #ffff;"><b>Express</b></p>
     <div class="w3-white">
-      <div class="w3-dark-grey" style="height:28px;width:80%"></div>
+      <div class="w3-dark-grey" style="height:28px;width:99%"></div>
     </div>
-    <p class="w3-wide">GIT (Remote & Locale)</p>
+    <p class="w3-wide" style="color: #ffff;"><b>Firebase</b></p>
     <div class="w3-white">
-      <div class="w3-dark-grey" style="height:28px;width:90%"></div>
+      <div class="w3-dark-grey" style="height:28px;width:99%"></div>
     </div>
-    <p class="w3-wide">Firebase</p>
+    <p class="w3-wide" style="color: #ffff;"><b>Version Control System (GIT-Remote & Locale)</b></p>
     <div class="w3-white">
-      <div class="w3-dark-grey" style="height:28px;width:75%"></div>
+      <div class="w3-dark-grey" style="height:28px;width:99%"></div>
     </div>
-    <p class="w3-wide">Node Js</p>
+    <p class="w3-wide" style="color: #ffff;"><b>JavaScript</b></p>
     <div class="w3-white">
-      <div class="w3-dark-grey" style="height:28px;width:80%"></div>
+      <div class="w3-dark-grey" style="height:28px;width:99%"></div>
     </div>
-    <p class="w3-wide">Mongo DB</p>
+    <p class="w3-wide" style="color: #ffff;"><b>Content Management System (WordPress)</b></p>
     <div class="w3-white">
-      <div class="w3-dark-grey" style="height:28px;width:78%"></div>
+      <div class="w3-dark-grey" style="height:28px;width:99%"></div>
     </div>
-    <p class="w3-wide">Graphics Design</p>
+    <p class="w3-wide"style="color: #ffff;"><b>Tailwind Css</b></p>
     <div class="w3-white">
-      <div class="w3-dark-grey" style="height:28px;width:70%"></div>
+      <div class="w3-dark-grey" style="height:28px;width:99%"></div>
     </div>
-    <p class="w3-wide">UI/UX Design</p>
+    <p class="w3-wide" style="color: #ffff;"><b>Bootstrap</b></p>
     <div class="w3-white">
-      <div class="w3-dark-grey" style="height:28px;width:65%"></div>
+      <div class="w3-dark-grey" style="height:28px;width:99%"></div>
+    </div>
+    <p class="w3-wide" style="color: #ffff;"><b>CSS</b></p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:99%"></div>
+    </div>
+    <p class="w3-wide" style="color: #ffff;"><b>HTML</b></p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:99%"></div>
     </div>
     <hr>
     
     <div class="w3-row w3-center w3-padding-16 w3-section w3-light-grey">
       <div class="w3-quarter w3-section">
-        <!-- <span class="w3-xlarge">11+</span><br>
-        Partners -->
       </div>
       <div class="w3-quarter w3-section">
-        <span class="w3-xlarge">20+</span><br>
+        <span class="w3-xlarge">50+</span><br>
         Projects Done
       </div>
       <div class="w3-quarter w3-section">
-        <span class="w3-xlarge">5+</span><br>
+        <span class="w3-xlarge">50+</span><br>
         Happy Clients
       </div>
-     <!-- <div class="w3-quarter w3-section">
-        <span class="w3-xlarge">150+</span><br>
-        Meetings
-      </div> -->
+     
     </div>
 
     <!-- <button class="w3-button w3-light-grey w3-padding-large w3-section">
@@ -205,123 +169,175 @@ footer a{text-decoration: none;}
     <p class="w3-center"><a class="w3-button w3-light-grey w3-padding-large w3-section fa fa-download w3-padding-24 " 
     style="font-size:x-large; "  
     href="https://docs.google.com/document/d/14rsRJHg61w0CfOcSs6irjDN4I8UvifWY"> Download Resume</a> </p>
-
-    <!-- Grid for pricing tables -->
-   <!-- <h3 class="w3-padding-16 w3-text-light-grey">My Price</h3>
-    <div class="w3-row-padding" style="margin:0 -16px">
-      <div class="w3-half w3-margin-bottom">
-        <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
-          <li class="w3-dark-grey w3-xlarge w3-padding-32">Basic</li>
-          <li class="w3-padding-16">Web Design</li>
-          <li class="w3-padding-16">Photography</li>
-          <li class="w3-padding-16">5GB Storage</li>
-          <li class="w3-padding-16">Mail Support</li>
-          <li class="w3-padding-16">
-            <h2>$ 10</h2>
-            <span class="w3-opacity">per month</span>
-          </li>
-          <li class="w3-light-grey w3-padding-24">
-            <button class="w3-button w3-white w3-padding-large w3-hover-black">Sign Up</button>
-          </li>
-        </ul>
-      </div> 
-
-      <div class="w3-half">
-        <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
-          <li class="w3-dark-grey w3-xlarge w3-padding-32">Pro</li>
-          <li class="w3-padding-16">Web Design</li>
-          <li class="w3-padding-16">Photography</li>
-          <li class="w3-padding-16">50GB Storage</li>
-          <li class="w3-padding-16">Endless Support</li>
-          <li class="w3-padding-16">
-            <h2>$ 25</h2>
-            <span class="w3-opacity">per month</span>
-          </li>
-          <li class="w3-light-grey w3-padding-24">
-            <button class="w3-button w3-white w3-padding-large w3-hover-black">Sign Up</button>
-          </li>
-        </ul>
-      </div> 
-
-    </div> -->
-    <!-- End Grid/Pricing tables -->
-    
-    <!-- Testimonials -->
-    <h1 class="w3-padding-24 w3-text-light-grey w3-section" style="letter-spacing: 10.5px; color: #384a5b !important;">Testimonials</h1>
-    <hr style="width:65vw" class="w3-opacity">  
-    <!-- <img src="/w3images/bandmember.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px"> -->
-    <p><span class="w3-large w3-margin-right"> <b>Engineer Stephen Akinpelu.</b></span> Director of ICT, Zoe Schools.</p>
-    <p>Stephen is proffesional, effective and efficient at his work, he is an asset to any organization .</p><br>
-    
-    <!-- <img src="/w3images/avatar_g2.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px"> -->
-    <p><span class="w3-large w3-margin-right"> <b>Mrs Adigun Oluwaseun. </b> </span> Head of School, Zoe Schools.</p>
-    <p>Stephen is good at what he does, he tirelessly ensures everything works fine in the ICT department .</p>
-  <!-- End About Section -->
   </div>
   
   <!-- Portfolio Section -->
-  <div class="w3-padding-64 w3-content" id="projects">
-    <h1 class="w3-text-light-grey" style="letter-spacing: 20px; color: #384A5B !important;">My Projects</h1>
+  <div class="w3-padding-64 w3-content w3-text-white" id="projects">
+    <h1 class="w3-text-light-grey" style="letter-spacing: 20px; text-align: center;"><b>My Projects</b></h1>
     <hr style="width:65vw" class="w3-opacity">
 
     <!-- Grid for projects --> 
     <div class="w3-row-padding" style="margin:0 -16px;  "> 
       <div class="w3-half project_links">  
-        <a id="bankapp" href="https://olutayo333.github.io/bankApp/"> Banking Application </a>
-        <a id="scrambledword" href="https://olutayo333.github.io/Scrambled-Word-Game/"> Scrambled Word Game </a>
-        <a id="btcconverter" href="https://olutayo333.github.io/bitcoin-converter/"> Bitcoin Converter </a>
-        <a id="weatherapp" href="https://olutayo333.github.io/weatherAPI/"> Weather Application </a>
-        <a id="location" href="https://olutayo333.github.io/LOCATION-longitude_latitude/" > Location Tracker </a> <br>
-        <a id="stopwatch" href="https://olutayo333.github.io/Timer-StopWatch/"> Stop Watch </a>  <br>
+        <div>
+          <a id="p-img" class="w3-hover-opacity" href="https://interswitch-group5-ecommerce-app.vercel.app/">
+            <img style="border-radius: 20px;" width="100%" src="./images/project Gifs/Ecommerce-Optimized.gif" alt="">
+          </a>
+          <p style="text-align: center;"> <b ><u>A Multi Tenant Eccomerce Application</u></b> <br> 
+            <span>
+                REACT JS, BOOTSTRAP, CSS MONGO DB, NODE JS, REDUX TOOL-KIT, CLOUDINARY, JAVA SPRING BOOT, LOMBOK, SPRING DATA JPA, and MySQL - 
+                The system was designed as a collection of microservices for both Merchant and Customers
+            </span>
+        </div>
+        <div>
+          <a id="p-img" class="w3-hover-opacity" href="https://react-cbt-4pg5.vercel.app/admin">
+            <img style="border-radius: 20px;" width="100%" src="./images/project Gifs/cbt-optimized.gif" alt="">
+          </a>
+          <p style="text-align: center;"> <b ><u>Computer Based Test(C.B.T) Application</u></b> <br> 
+            <span>
+                REACT JS, BOOTSTRAP, CSS, MONGO DB, NODE JS - 
+                A CBT System that provides Examiners the functionality to set and edit multiple choice questions, options and correct answer.
+                The App also provides a friendly interface for students to answer questions withing the specified time.               
+            </span>
+        </div>
+        <div>
+          <a id="p-img" class="w3-hover-opacity" href="https://womenreform.ng/">
+            <img style="border-radius: 20px;" width="100%" src="./images/project Gifs/WRO.gif" alt="">
+          </a>
+          <p style="text-align: center;"> <b ><u>N.G.O Website</u></b> <br> 
+            <span>
+                WORDPRESS, HTML, CSS - 
+                  A website for a Non Govermental Organization in Lagos State, that dynamically showcase, information about the company with friendly User Interface and other functionalities
+            </span>
+        </div>
+        <div>
+          <a id="p-img" class="w3-hover-opacity" href="https://olutayo333.github.io/bankApp/">
+            <img style="border-radius: 20px;" width="100%" src="./images/project Gifs/BankApp-JavaScript.gif" alt="">
+          </a>
+          <p style="text-align: center;"> <b ><u>Online Banking Application</u></b> <br> 
+            <span>
+                JAVASCRIPT, HTML, CSS - 
+                Some functionalities of this application include customer registration, login, password retrieval, deposit, withdraw, transfer funds, and transaction history amongst others     
+            </span>
+        </div>
+        <div>
+          <a id="p-img" class="w3-hover-opacity" href="https://olutayo333.github.io/bitcoin-converter/">
+            <img style="border-radius: 20px;" width="100%" src="./images/project Gifs/Btc converter.gif" alt="">
+          </a>
+          <p style="text-align: center;"> <b ><u>BitCoin Converter</u></b> <br> 
+            <span>
+                JAVASCRIPT, HTML, CSS - 
+                An application that convert the current price of BitCoin to  Dollar, Euro and Pounds
+            </span>
+        </div>
+        <div>
+          <a id="p-img" class="w3-hover-opacity" href="https://olutayo333.github.io/weatherAPI/">
+            <img style="border-radius: 20px;" width="100%" src="./images/project Gifs/WeatherApp.gif" alt="">
+          </a>
+          <p style="text-align: center;"> <b ><u>Weather Application</u></b> <br> 
+            <span>
+                JAVASCRIPT, HTML, CSS - 
+                An application that fetches and diplay the weather conditions of a specified location
+            </span>
+        </div>
+<!--        
         <a id="calculator" href="https://olutayo333.github.io/Calculator_parametizedFunction/"> Calculator </a> <br>
         <a id="trafficAnimation" href="https://olutayo333.github.io/trafficanimation/"> Traffic Animation </a>  <br>
         <a id="flickr" href="https://olutayo333.github.io/flickr/"> Flickr  </a> <br>
-        <a id="NUTForm" href="https://olutayo333.github.io/teachers_form/"> NUT Form</a> <br>
-        <a id="printivo"  href="https://github.com/olutayo333/printivo"> Printivo </a>  <br>
-        <a id="Ganalytics"  href="https://github.com/olutayo333/printivo"> Google Analytics </a>  <br>
-        
+     -->
       </div>
 
-      <div id="projects_Second_half" class="w3-half" style="color: #384A5B; ">
-        <!-- <p> ( Web Programming ) </p>
-        <p> ( Web Development ) </p>
-        <p> ( Web Development ) </p>
-        <p> ( Web Development ) </p>
-        <p> ( Web Development )</p>
-        <p> ( Web Programming ) </p>
-        <p> ( Web Development ) </p>
-        <p> ( Web Development ) </p>
-        <p> ( Web Development ) </p>
-        <p> ( Web Development )</p> -->
-      </div>
+      <div  id="projects_Second_half" class="w3-half" style="color: #ffff; ">
+        <div>
+          <a id="p-img" class="w3-hover-opacity" href="https://react-bank-app-hazel.vercel.app/">
+            <img style="border-radius: 20px;" width="100%" src="./images/project Gifs/Bnak-react-optimized.gif" alt="">
+          </a>
+          <p style="text-align: center;"> <b ><u>Web Banking Application</u></b> <br> 
+            <span>
+                REACT JS, BOOTSTRAP, CSS, MONGO DB, NODE JS - 
+                Some functionalities of this application include customer registration, login, password retrieval, deposit, withdraw and transfer, amongst others 
+            </span>
+        </div>
+        <div>
+          <a id="p-img" class="w3-hover-opacity" href="https://pyrafieldhomes.com.ng/">
+            <img style="border-radius: 20px;" width="100%" src="./images/project Gifs/pyrafield.gif" alt="">
+          </a>
+          <p class="w3-hover-opacity" style="text-align: center;"> <b ><u>A Real Estate Website</u></b> <br> 
+            <span>
+                WORDPRESS, HTML, CSS - 
+                  A website for a real estate company in Ogun State, that dispay dynamically, information about the company with visually apealing User Interface and other functionalities
+            </span>
+        </div> <br>
+        <div>
+          <a id="p-img" class="w3-hover-opacity" href="https://zoe.sch.ng/">
+            <img style="border-radius: 20px;" width="100%" src="./images/project Gifs/zoe.gif" alt="">
+          </a>
+          <p style="text-align: center;"> <b ><u>A School Website</u></b> <br> 
+            <span>
+                WORDPRESS, HTML, CSS - 
+                  A website for a School in Oyo State, that dispays dynamically, information about the School with visually apealing User Interface and other functionalities
+            </span>
+        </div> <br>
+        <div>
+          <a id="p-img" class="w3-hover-opacity" href="https://olutayo333.github.io/Scrambled-Word-Game/">
+            <img style="border-radius: 20px;" width="100%" src="./images/project Gifs/word scramble.gif" alt="">
+          </a>
+          <p style="text-align: center;"> <b ><u>Scrambled Word Game</u></b> <br> 
+            <span>
+                JAVASCRIPT, HTML, CSS - 
+                A game that test the reasoning ability of players by scrambling words and demanding the player to re-arrange the scrambled words. It has an admin panel where words to be scrambled can be set.    
+            </span>
+        </div>
+        <div>
+          <a id="p-img" class="w3-hover-opacity" href="https://olutayo333.github.io/Timer-StopWatch/">
+            <img style="border-radius: 20px;" width="100%" src="./images/project Gifs/stop watch.gif" alt="">
+          </a>
+          <p style="text-align: center;"> <b ><u>Stop Watch</u></b> <br> 
+            <span>
+                JAVASCRIPT, HTML, CSS - 
+                A StopWatch Application that reads in Seconds, Minutes and Hours.
+            </span>
+        </div>
+        <div>
+          <a id="p-img" class="w3-hover-opacity" href="https://olutayo333.github.io/LOCATION-longitude_latitude">
+            <img style="border-radius: 20px;" width="100%" src="./images/2.PNG" alt="">
+          </a>
+          <p style="text-align: center;"> <b ><u>Location Tracker</u></b> <br> 
+            <span>
+                JAVASCRIPT, HTML, CSS - 
+                An application that automatically fetches location(Lon and Lat) of the device and updates onces the location changes
+            </span>
+        
     <!-- End project grid -->
     </div>
   <!-- End Portfolio Section -->
   </div>
+</div>
+<a class="w3-hover-opacity" href="https://github.com/olutayo333?tab=repositories"><b><h4 style="text-align: center; background: #ffff; color: #222; border-radius: 20px;"> Click to View More of My Projects</h4> </b></a>
+</div>
 
+    <div>
+          <!-- Testimonials -->
+    <h1 class="w3-padding-24 w3-text-light-grey w3-section" style="letter-spacing: 10.5px; color: #ffff !important; text-align: center;">Reccomendations</h1>
+    <hr class="w3-opacity">  
+   
+  <!-- End About Section -->
+  <a style="letter-spacing: 10px; color: aliceblue; margin-top: 0px; text-decoration: none;" href="https://www.linkedin.com/in/ayanrinde-olutayo-stephen/details/recommendations" >
+    <img width="100%" style="border-radius: 20px;" src="./images//project Gifs/recommendation gif.gif" alt="recommendations"> 
+    <b><h4 class="w3-hover-opacity" style="text-align: center; background: #ffff; color: #222; border-radius: 20px;">Click to View More Recommendations </h4> </b> 
+  </a>
+    </div> <br>
   <!-- Contact Section -->
-  <div class="w3-padding-50 w3-content w3-text-grey" id="contact">
-    <h1 class="w3-text-light-grey" style="letter-spacing: 20px; color: #384A5B !important;">Contact Me</h1>
+  <div class="w3-padding-50 w3-content" id="contact">
+    <h1 class="w3-text-light-grey w3-center" style="letter-spacing: 20px; color: #ffff !important;">Contact Me</h1>
     <hr style="width:65vw" class="w3-opacity">
 
-    <div class="w3-section">
+    <div class="w3-section w3-center w3-text-white">
       <p><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Oyo State, Nigeria</p>
       <p><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Phone: +234 8163960501</p>
       <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i>  Email: <a href="olutayostephen@gmail.com"> <b> olutayostephen@mail.com</b>  </a></p>
     </div><br>
-    <p>Let's get in touch. Send me a message:</p>
 
-    <form action="/action_page.php" target="_blank">
-      <p><input class="w3-input w3-padding-16" type="text" placeholder="Name" required name="Name"></p>
-      <p><input class="w3-input w3-padding-16" type="text" placeholder="Email" required name="Email"></p>
-      <p><input class="w3-input w3-padding-16" type="text" placeholder="Subject" required name="Subject"></p>
-      <p><input class="w3-input w3-padding-16" type="text" placeholder="Message" required name="Message"></p>
-      <p class="w3-center">
-        <button class="w3-button w3-light-grey w3-padding-large" type="submit">
-        <i class="fa fa-paper-plane"></i> SEND MESSAGE
-        </button>
-      </p>
-    </form>
   <!-- End Contact Section -->
   </div>
   
@@ -331,7 +347,8 @@ footer a{text-decoration: none;}
     <a class="fa fa-linkedin w3-hover-opacity" href="https://www.linkedin.com/in/ayanrinde-olutayo-stephen"></a>
     <a class="fa fa-twitter w3-hover-opacity" href="https://twitter.com/OlutayoStephen1"></a>
     <a class="fa fa-whatsapp w3-hover-opacity" href="https://wa.me/8163960501" ></a>
-    <!-- End footer -->
+    <a class="fa fa-envelope w3-hover-opacity " href="mailto:olutayostephen@gmail.com"> </a>
+      <!-- End footer -->
   </footer>
 
 <!-- END PAGE CONTENT -->
